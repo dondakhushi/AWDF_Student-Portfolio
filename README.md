@@ -58,7 +58,6 @@ student-portfolio/
 │   │   ├── Header.jsx
 │   │   ├── About.jsx
 │   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
 │   │   └── Footer.jsx
 │   │
 │   ├── App.jsx
@@ -200,7 +199,7 @@ After completing this project, you will be able to:
 
 **Khushi Donda**
 
-Computer Engineering Student
+Information Technology Student
 
 ---
 
