@@ -1,10 +1,10 @@
-function Header({ name , themeColor }) {
-  return (
-    <header style={{ backgroundColor: themeColor }}>
-      <h1>Student Portfolio</h1>
-      <p>Welcome to {name}'s portfolio!</p>
-    </header>
-  );
+import "./Header.css"
+function Header({name}){
+    return(
+        <header className="titlebar">
+             <h1 className="filename" >Welcome to {name}'s portfolio!</h1>
+        </header>
+    );
 }
 
 export default Header;

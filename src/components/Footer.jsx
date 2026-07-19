@@ -1,7 +1,8 @@
-function Footer({email}) {
+import "./Footer.css"
+function Footer({email , name, year}) {
     return (
-        <footer>
-            <p>© 2026 Student Portfolio</p>
+        <footer className="status-bar">
+            <p className="status-right" >© {year} {name} Portfolio</p>
             <p>Contact: {email}</p>
         </footer>
     );

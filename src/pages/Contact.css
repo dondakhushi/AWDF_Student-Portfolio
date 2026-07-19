@@ -1,0 +1,49 @@
+.contact-form label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+.contact-form textarea {
+  width: 100%;
+  font-family: var(--sans);
+  font-size: 15px;
+  color: var(--text-h);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  resize: vertical;
+}
+.char-count {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 6px;
+}
+.live-preview {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--gutter);
+  border-radius: 8px;
+  border: 1px dashed var(--border);
+  font-size: 15px;
+}
+.tip-btn {
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--accent-2-bg);
+  color: var(--accent-2);
+  margin-bottom: 10px;
+}
+.tip-btn:hover {
+  border-color: var(--accent-2);
+}
+.tip-text {
+  font-size: 14px;
+  color: var(--text-dim);
+  font-style: italic;
+}

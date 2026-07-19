@@ -1,0 +1,25 @@
+.status {
+    /* display: block; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* gap: 12px; */
+    padding: 8px 35px;
+     background: var(--gutter);
+    font-size: 12.5px;
+    
+    /* background-color: bisque; */
+    /* flex-direction: row; */
+}
+.title  {
+   
+    border-bottom: 1px solid var(--border);
+    margin: auto;
+    text-align: center;
+     padding: 8px 35px;
+     font-size: 30px;
+
+}
+.pTag{
+  padding: 20px 35px;
+     font-size: 20px;
+}

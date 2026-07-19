@@ -1,0 +1,55 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 16px;
+  background: var(--accent-2);
+  color: black;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  background-color: bisque;
+}
+.status-bar .status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: inline-block;
+  margin-right: 6px;
+  animation: pulse 2.2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.status-bar a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.status-bar .status-right {
+  opacity: 0.9;
+}
+footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p,
+footer span,
+footer a {
+  color: var(--footer-text);
+}
+
+footer a:hover {
+  color: var(--primary);
+}

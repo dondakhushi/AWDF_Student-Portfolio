@@ -1,9 +1,16 @@
-function Skills({ skillList }) {
-return (
-<ul>
-{skillList.map((s) => <li key={s}>{s}</li>)}
-</ul>
-);
+import "./Skills.css"
+function Skills({ heading, skillsList = [] }) {
+  return (
+    <section>
+      <p className="skill-head">{heading}</p>
+
+      <ul className="skills-list">
+        {skillsList.map((skill) => (
+          <li key={skill}>{skill}</li>
+        ))}
+      </ul>
+    </section>
+  );
 }
 
 export default Skills;

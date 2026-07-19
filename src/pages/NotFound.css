@@ -1,0 +1,16 @@
+.not-found {
+  text-align: center;
+  padding: 40px 0;
+}
+.not-found .code {
+  font-family: var(--mono);
+  font-size: 48px;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-bar .status-dot {
+    animation: none;
+  }
+}

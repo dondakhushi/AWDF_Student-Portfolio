@@ -1,0 +1,39 @@
+.title-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--gutter);
+  border-bottom: 1px solid var(--border);
+}
+
+.title-bar .dots {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.title-bar .dots span {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.title-bar .dots span:nth-child(1) { background: #ec6a5e; }
+.title-bar .dots span:nth-child(2) { background: #f4bf4f; }
+.title-bar .dots span:nth-child(3) { background: #61c454; }
+
+.title-bar .filename {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.title-bar h1 {
+  display: none; /* h1 kept for a11y/SEO but visually replaced by filename above */
+}
+h1 {
+    @media (max-width: 1024px) {
+        font-size: 35px;
+        margin: 20px 0;
+    }
+}

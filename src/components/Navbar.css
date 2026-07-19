@@ -1,0 +1,112 @@
+/* Light Theme */
+:root {
+  --bg: #ffffff;
+  --nav-bg: #f8f9fa;
+  --text: #222222;
+  --border: #dcdcdc;
+  --hover: #e9ecef;
+  --primary: #2563eb;
+}
+
+/* Dark Theme */
+html.dark-mode {
+  --bg: #121212;
+  --nav-bg: #1e1e1e;
+  --text: #ffffff;
+  --border: #444444;
+  --hover: #2b2b2b;
+  --primary: #60a5fa;
+}
+
+/* Entire Page */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* All headings and text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+li {
+  color: var(--text);
+  transition: color 0.3s ease;
+}
+
+/* Navbar */
+.tab-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 70px;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+/* Navigation */
+.tabs {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Link {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.Link:hover {
+  color: var(--primary);
+}
+
+.Link.active {
+  color: var(--primary);
+}
+
+/* Theme Button */
+.theme-toggle {
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--hover);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tab-bar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}
