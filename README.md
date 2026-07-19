@@ -83,7 +83,7 @@ git clone https://github.com/dondakhushi/AWDF_Student-Portfolio.git
 ### 2. Navigate to the Project Folder
 
 ```bash
-cd portfolio-24IT01
+cd AWDF_student-portfolio
 ```
 
 ### 3. Install Dependencies
