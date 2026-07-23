@@ -12,16 +12,17 @@
     border-bottom: 1px solid var(--border);
     font-size: 30px;
     color: white;
+    color: var(--gutter);
     width: 80%;
-    color: black;
     margin: auto;
 }
 .skills-list li {
-  font-family: var(--mono);
-  font-size: 14px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 6px 12px;
+    font-family: var(--mono);
+    font-size: 14px;
+    color: #ffffff;
+    background: #887070;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 12px;
 }
+

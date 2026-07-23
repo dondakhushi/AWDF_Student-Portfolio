@@ -8,7 +8,6 @@ function Contact() {
   return (
     <div>
       <h2>Contact Me</h2>
-
       <button type="button" onClick={() => setShowTip((prev) => !prev)}>
         {showTip ? 'Hide Tip' : 'Show Tip'}
       </button>
@@ -38,5 +37,4 @@ function Contact() {
     </div>
   );
 }
-
 export default Contact;

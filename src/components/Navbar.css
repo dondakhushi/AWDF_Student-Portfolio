@@ -4,7 +4,7 @@
   --nav-bg: #f8f9fa;
   --text: #222222;
   --border: #dcdcdc;
-  --hover: #e9ecef;
+  --hover: black;
   --primary: #2563eb;
 }
 
@@ -16,6 +16,7 @@ html.dark-mode {
   --border: #444444;
   --hover: #2b2b2b;
   --primary: #60a5fa;
+  --repo : black;
 }
 
 /* Entire Page */

@@ -1,0 +1,28 @@
+.error-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.error-container h2 {
+  color: #c81849;
+  margin-bottom: 10px;
+}
+
+.error-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.retry-btn {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #887070;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.retry-btn:hover {
+  background: #1d4ed8;
+}
